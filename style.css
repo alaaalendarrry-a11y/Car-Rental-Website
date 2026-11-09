@@ -1,0 +1,260 @@
+ body {
+    font-family: Arial, Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: #f4f6f9;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#header-container {
+    background-color: #0b3c5d;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 4px solid #d9534f;
+}
+
+#header-container h1 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+#header-container h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #d1e5f0;
+    margin: 0;
+}
+
+#nav-container {
+    background-color: #1d2731;
+    overflow: hidden;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.nav-list li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-list li a:hover {
+    background-color: #d9534f;
+}
+
+.nav-list li a.active {
+    background-color: #0b3c5d;
+    border-bottom: 3px solid #ffcc00;
+}
+
+#main-content {
+    width: 90%;
+    max-width: 980px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border: 1px solid #dcdcdc;
+}
+
+#main-content h3 {
+    color: #0b3c5d;
+    font-size: 18px;
+    border-bottom: 2px solid #0b3c5d;
+    padding-bottom: 6px;
+    margin-top: 20px;
+}
+
+.box-info {
+    background-color: #f9fbfd;
+    border: 1px solid #cbe0f0;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.box-info p {
+    margin: 6px 0;
+}
+
+/* Tables styling */ .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #0b3c5d;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.data-table tr:hover {
+    background-color: #edf2f7;
+}
+
+/* Details dynamic row */ 
+.details-row {
+    display: none;
+    background-color: #fff9e6 !important;
+}
+
+.details-content {
+    text-align: right;
+    padding: 10px 25px;
+    color: #333333;
+}
+
+.details-content p {
+    margin: 4px 0;
+    font-size: 13px;
+}
+
+/* Buttons and Unified Inputs */
+ .action-box {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.btn-primary {
+    background-color: #0b3c5d;
+    color: #ffffff;
+    border: 1px solid #08283e;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #d9534f;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+    border: 1px solid #545b62;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #495057;
+}
+
+/* Form Styles */ 
+fieldset {
+    border: 1px solid #0b3c5d;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #fafbfc;
+}
+
+legend {
+    color: #0b3c5d;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+/* Centralized form text inputs formatting */
+ .form-control {
+    width: 320px;
+    max-width: 90%;
+    padding: 8px 10px;
+    border: 1px solid #999999;
+    font-size: 14px;
+    font-family: Arial, Tahoma, sans-serif;
+    color: #000080;
+    background-color: #ffffff;
+    display: block;
+}
+
+.form-control:focus {
+    border-color: #0b3c5d;
+    outline: none;
+    background-color: #ffffe0;
+}
+
+.hint-text {
+    font-size: 12px;
+    color: #666667;
+    display: block;
+    margin-top: 4px;
+}
+
+/* Modal Popup Result Box */
+ #result-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+#result-box {
+    width: 480px;
+    max-width: 90%;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border: 3px solid #0b3c5d;
+    box-shadow: 0px 4px 15px #000000;
+}
+
+#result-box h4 {
+    margin-top: 0;
+    color: #0b3c5d;
+    font-size: 18px;
+    border-bottom: 2px solid #d9534f;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+#footer-container {
+    background-color: #1d2731;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    margin-top: 30px;
+}
